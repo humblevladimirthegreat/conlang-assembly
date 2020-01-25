@@ -1,0 +1,6 @@
+FromId,RelationId,ToId
+my_greeting,Inherits_Greeting,Greeting
+my_greeting,Inherits_Verb,InstantiatedVerb
+TheSpeaker,AgentOf,my_greeting
+TheWorld,RecipientOf,my_greeting
+
