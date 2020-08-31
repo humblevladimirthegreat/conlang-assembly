@@ -1,0 +1,9 @@
+FromId,RelationId,ToId
+entail1,Inherits_Entailment1,Entailment
+entail2,Inherits_Entailment2,Entailment
+premise1,Inherits_Premise1,Premise
+premise2,Inherits_Premise2,Premise
+premise1,PremiseOf,entail1
+premise2,ConclusionOf,entail1
+premise2,PremiseOf,entail2
+premise1,ConclusionOf,entail2
